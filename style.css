@@ -2,12 +2,12 @@
 
 :root {
     /*  Colors  */
-    --facebook: #ff0000;
-    --twitter: #ff0000;
+    --youtube: #ff0000;
+    --youtube: #ff0000;
     --instagram: #E1306C;
     --discord: #5865F2;
     --instagram_gradient: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
-    --youtube: #333;
+    --github: #333;
     --messenger_gradient: linear-gradient(200deg, #fc466b, #3f5efb 90%);
     --messenger: #8241fb;
 
