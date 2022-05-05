@@ -2,16 +2,16 @@
 
 :root {
     /*  Colors  */
-    --facebook: #4267B2;
-    --twitter: #1DA1F2;
+    --facebook: #ff0000;
+    --twitter: #ff0000;
     --instagram: #E1306C;
+    --discord: #5865F2;
     --instagram_gradient: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
-    --github: #333;
-    --youtube: #ff0000;
+    --youtube: #333;
     --messenger_gradient: linear-gradient(200deg, #fc466b, #3f5efb 90%);
     --messenger: #8241fb;
 
-    --b-accent:rgb(0, 0, 0);
+    --b-accent:rgb(0, 0, 0); 
     --s-button:#fff;
     --name-color:#31344b;
     --about-color:#44476a;
@@ -286,19 +286,19 @@ html,body{
 /* Button Text Color */
 
 .wrapper .button:nth-child(1) span{
-    color: var(--facebook);
+    color: var(--youtube);
 }
 .wrapper .button:nth-child(2) span{
-    color: var(--twitter);
+    color: var(--youtube);
 }
 .wrapper .button:nth-child(3) span{
     color: var(--instagram);
 }
 .wrapper .button:nth-child(4) span{
-    color: var(--github);
+    color: var(--discord);
 }
 .wrapper .button:nth-child(5) span{
-    color: var(--youtube);
+    color: var(--githube);
 }
 .wrapper .button:nth-child(6) span{
     color: var(--messenger);
