@@ -8,8 +8,7 @@
     --instagram_gradient: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
     --discord: #5865F2;
     --github: #333;
-    --messenger_gradient: linear-gradient(200deg, #fc466b, #3f5efb 90%);
-    --messenger: #8241fb;
+    --twitch: #7134e4;
 
     --b-accent:rgb(0, 0, 0);
     --s-button:#fff;
@@ -47,7 +46,7 @@ html,body{
     --s-button:#272727;
     --name-color:#ffffff;
     --about-color:#838383;
-    --youtube: rgb(255, 56, 56);
+    --youtube: rgb(255, 0, 0);
     --github: rgb(78, 78, 78);
 }
 
@@ -258,7 +257,7 @@ html,body{
     background: var(--github);
 }
 .wrapper .button:nth-child(6) .icon::before {
-    background: var(--messenger_gradient);
+    background: var(--twitch);
 }
 
 .wrapper .button .icon i{
@@ -301,5 +300,5 @@ html,body{
     color: var(--github);
 }
 .wrapper .button:nth-child(6) span{
-    color: var(--messenger);
+    color: var(--twitch);
 }
