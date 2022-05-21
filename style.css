@@ -10,13 +10,13 @@
     --github: #333;
     --twitch: #7134e4;
 
-    --b-accent:rgb(0, 0, 0);
-    --s-button:#fff;
-    --name-color:#31344b;
-    --about-color:#44476a;
+    --b-accent:#ffff;
+    --s-button: #006aac;
+    --name-color:#ffff;
+    --about-color:#04B2D9;
   
-    --b-background:#ffffff;
-    --background: linear-gradient(315deg,#ffffff 0%,#d7e1ec 74%);
+    --b-background: #0487D9;
+    --background: linear-gradient(315deg,#032147 0%,#034AA6 74%);
     /*  Speed of transition (Czech) */
     --rychlost: 0.5s;
     --target: _blank;
@@ -40,12 +40,12 @@ html,body{
 }
 
 .dark-mode{
-    --background: linear-gradient(315deg, rgb(24, 26, 27) 0%, rgb(41, 44, 46) 74%);
-    --b-background:#181a1b;
+    --background: linear-gradient(315deg, #340773 0%, #594A8C 74%);
+    --b-background: #3A1F73;
     --b-accent:#fff;
-    --s-button:#272727;
+    --s-button: #594a8c;
     --name-color:#ffffff;
-    --about-color:#838383;
+    --about-color: #594A8C;
     --youtube: rgb(255, 0, 0);
     --github: rgb(78, 78, 78);
 }
