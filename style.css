@@ -7,16 +7,15 @@
     --instagram: #E1306C;
     --instagram_gradient: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
     --discord: #5865F2;
-    --github: #333;
     --twitch: #7134e4;
 
     --b-accent:#ffff;
-    --s-button: #006aac;
+    --s-button: #4C4C4C;
     --name-color:#ffff;
-    --about-color:#04B2D9;
+    --about-color:#656565;
   
-    --b-background: #0487D9;
-    --background: linear-gradient(315deg,#032147 0%,#034AA6 74%);
+    --b-background: #333333;
+    --background: linear-gradient(315deg,#333333 0%,#656565 74%);
     /*  Speed of transition (Czech) */
     --rychlost: 0.5s;
     --target: _blank;
@@ -41,13 +40,12 @@ html,body{
 
 .dark-mode{
     --background: linear-gradient(315deg, #340773 0%, #594A8C 74%);
-    --b-background: #3A1F73;
+    --b-background: #411d8f;
     --b-accent:#fff;
-    --s-button: #594a8c;
+    --s-button: #553da3;
     --name-color:#ffffff;
     --about-color: #594A8C;
     --youtube: rgb(255, 0, 0);
-    --github: rgb(78, 78, 78);
 }
 
 .noselect {
@@ -254,9 +252,6 @@ html,body{
     background: var(--discord);
 }
 .wrapper .button:nth-child(5) .icon::before {
-    background: var(--github);
-}
-.wrapper .button:nth-child(6) .icon::before {
     background: var(--twitch);
 }
 
@@ -297,8 +292,5 @@ html,body{
     color: var(--discord);
 }
 .wrapper .button:nth-child(5) span{
-    color: var(--github);
-}
-.wrapper .button:nth-child(6) span{
     color: var(--twitch);
 }
