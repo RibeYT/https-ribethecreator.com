@@ -21,8 +21,10 @@
   --name-color: #ffff;
   --about-color: #656565;
 
+  --glass-buttons: rgba(255, 255, 255, 0.049);
+
   --b-background: #333333;
-  --background: linear-gradient(315deg, #333333 0%, #656565 74%);
+  --background: linear-gradient(315deg, #000 0%, #555 74%);
   /*  Speed of transition (Czech) */
   --rychlost: 0.5s;
   --target: _blank;
@@ -47,7 +49,7 @@ body {
 }
 
 .dark-mode {
-  --background: linear-gradient(315deg, #340773 0%, #594a8c 74%);
+  --background: linear-gradient(315deg, hsl(265, 89%, 24%) 0%, hsl(254, 30%, 35%) 74%);
   --b-background: #411d8f;
   --b-accent: #fff;
   --s-button: #553da3;
@@ -88,7 +90,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--b-accent);
+  /* background-color: var(--b-accent); */
+  background-color: var(--glass-buttons);
   box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -158,7 +161,9 @@ input:checked + .slider:before {
 
 .ohraniceni,
 .ohraniceni .img-area {
-  background: var(--b-background);
+  /* background: var(--b-background); */
+  backdrop-filter: blur(16px) brightness(0.7);
+  -webkit-backdrop-filter: blur(16px) brightness(0.7);
   border-radius: 30px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
@@ -227,7 +232,8 @@ input:checked + .slider:before {
   width: 60px;
   margin: 0 5px;
   overflow: hidden;
-  background: var(--s-button);
+  /* background: var(--s-button); */
+  background-color: var(--glass-buttons);
   border-radius: 50px;
   cursor: pointer;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
