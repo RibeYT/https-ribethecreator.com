@@ -16,15 +16,15 @@
   --discord: #5865f2;
   --twitch: #7134e4;
 
-  --b-accent: #ffff;
+  --b-accent: #ffffff;
   --s-button: #4c4c4c;
-  --name-color: #ffff;
+  --name-color: #ffffff;
   --about-color: #656565;
 
-  --glass-buttons: rgba(255, 255, 255, 0.049);
+  --glass-buttons: #ffffff0c;
 
   --b-background: #333333;
-  --background: linear-gradient(315deg, #000 0%, #555 74%);
+  --background: linear-gradient(315deg, #000000 0%, #555555 74%);
   /*  Speed of transition (Czech) */
   --rychlost: 0.5s;
   --target: _blank;
@@ -49,9 +49,9 @@ body {
 }
 
 .dark-mode {
-  --background: linear-gradient(315deg, hsl(265, 89%, 24%) 0%, hsl(254, 30%, 35%) 74%);
+  --background: linear-gradient(315deg, #340774 0%, #4b3e74 74%);
   --b-background: #411d8f;
-  --b-accent: #fff;
+  --b-accent: #ffffff;
   --s-button: #553da3;
   --name-color: #ffffff;
   --about-color: #594a8c;
@@ -165,7 +165,7 @@ input:checked + .slider:before {
   backdrop-filter: blur(16px) brightness(0.7);
   -webkit-backdrop-filter: blur(16px) brightness(0.7);
   border-radius: 30px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px #0000001a;
 }
 
 .ohraniceni {
@@ -177,7 +177,7 @@ input:checked + .slider:before {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px #0000001a;
 }
 
 .ohraniceni .img-area {
@@ -236,7 +236,7 @@ input:checked + .slider:before {
   background-color: var(--glass-buttons);
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px #0000001a;
   transition: all var(--rychlost) ease-out;
   /* z-index: -100; */
   /* border: 1px solid rgb(0, 17, 255); */
@@ -305,7 +305,7 @@ input:checked + .slider:before {
 }
 
 .wrapper .button:hover .icon i {
-  color: #fff;
+  color: #ffffff;
 }
 
 .wrapper .button span {
